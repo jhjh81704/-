@@ -49,6 +49,8 @@ she_loves_you = ['she', 'loves', 'you', 'yeah', 'yeah', 'yeah',
 'yeah', 'yeah', 'yeah', 'yeah'
 ]
 
+# 講義 p,41/50
+
 def lyrics_to_frequencies(lyrics):
     myDict = {}
     for word in lyrics:
