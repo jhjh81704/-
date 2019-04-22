@@ -49,7 +49,7 @@ she_loves_you = ['she', 'loves', 'you', 'yeah', 'yeah', 'yeah',
 'yeah', 'yeah', 'yeah', 'yeah'
 ]
 
-# 講義 p,41/50
+# 講義 Structured Types_ Mutability_ and Higher-Order Functions.pdf 的 p,41/50
 
 def lyrics_to_frequencies(lyrics):
     myDict = {}
