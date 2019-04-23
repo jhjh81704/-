@@ -11,4 +11,11 @@
   # 如果你要上傳的是單一特定資料 >> 輸入 git add 檔案名稱
   # git commit -m "版本名稱 (隨便你想打什麼名稱)"   # commit 版本的意思 version 的含意
   # git push origin master >> 按下Enter 使其運行並等 cmd 上傳資料到 GitHub
-  
+ 
+
+
+# 也可以一次使用所有的指令:
+
+ # git add .
+ # git commit-m "problem to solve"
+ # git push origin master
