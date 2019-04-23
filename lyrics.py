@@ -94,5 +94,5 @@ def words_often(freqs, minTimes):
             else:
                 done = True
     return result
-## 輸入指令: 
+## 輸入指令: 這到底要怎麼輸入啊 ?
 
