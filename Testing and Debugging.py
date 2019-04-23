@@ -6,7 +6,8 @@ Created on Sat Dec 22 15:32:20 2018
 """
 
     ### 2018_1224
-
+    
+這支程式碼的問題已經釐清了
 
 # 講義 p,27/43 ~ p,43/43 錄音檔 REC003
 #與佳駿討論
@@ -21,7 +22,7 @@ def isPal(x):
         return False
     
     
-def silly(n):
+def silly(n): # n 為迴圈數
     
     for i in range(n):
         result = []
