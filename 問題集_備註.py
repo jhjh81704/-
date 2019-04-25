@@ -3,7 +3,7 @@
 
 
 
-# GitHub 上傳/update 流程: 
+# GitHub 上傳/update 流程: SOP
   
   # 打開 cmd
   # cd 你要上傳檔案所在的資料夾路徑
