@@ -17,5 +17,5 @@
 # 也可以一次使用所有的指令:
 
  # git add .
- # git commit -m "problem to solve"
+ # git commit -m "版本名稱"
  # git push origin master
