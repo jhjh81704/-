@@ -6,11 +6,17 @@ Created on Tue Apr  2 22:35:23 2019
 """
 
 
-class Money(object):  # 計算月薪    
-    def __init__(self, hr, day):        
+class Money(object):      
+    def __init__(self, hr, day): 
+
         self.hr = hr
         self.day = day       
     
+class Money_month(Money): # 計算月薪
+    
+    def __inti__(self, hr, day):      
+        Money.__inti__(self, hr, day)
+       
     def getMoney_hr(self): # 時薪
         return self.Money_hr
     
@@ -29,13 +35,13 @@ class Money(object):  # 計算月薪
 
 
  ##使用參考指令:
-a = Money(9, 26)
-b = Money(9, 22)
-a.setMoney_hr(120)
-b.setMoney_hr(150)
-print(a)
-print(b)
-print('相差: ' + (a.__sub__(b)))  # 計算兩份工作行情的比較
+#a = Money_month(9, 26)
+#b = Money_month(9, 22)
+#a.setMoney_hr(120)
+#b.setMoney_hr(150)
+#print(a)
+#print(b)
+#print('相差: ' + (a.__sub__(b)))  # 計算兩份工作行情的比較
 
 
 #--------------------------------------------------------------------
@@ -44,11 +50,10 @@ print('相差: ' + (a.__sub__(b)))  # 計算兩份工作行情的比較
 # 計算時薪的這支程式碼有錯誤，但目前找不到問題出在哪裡......
 class Money_hr(Money):  # 計算時薪
 
-   def __inti__(self, hr, day):
-      
+   def __inti__(self, hr, day):      
        Money.__inti__(self, hr, day)       
    
-   def getMoney_month(self):
+   def getMoney_month(self): # 月薪
        return self.Money_month
    
    def setMoney_month(self, Money_month):
@@ -65,10 +70,13 @@ class Money_hr(Money):  # 計算時薪
                         - other.Money_month / (other.hr *other.day)))
 
 #使用參考指令:
-c = Money_hr(9, 26)
-d = Money_hr(9, 22)
-c.setMoney_month(28000)
-d.setMoney_month(25000)
-print(c)
-print(d)
-print('相差:' + (a.__sub__(b))) # 計算兩份工作行情的比較
+#c = Money_hr(9, 26)
+#d = Money_hr(9, 22)
+#c.setMoney_month(28000)
+#d.setMoney_month(25000)
+#print(c)
+#print(d)
+#print('相差:' + (a.__sub__(b))) # 計算兩份工作行情的比較
+       
+
+# 使用 main function...
